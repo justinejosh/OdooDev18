@@ -16,3 +16,7 @@ POSTGRESQL
 
 # Learning Source
 Official Odoo Documentation: [https://www.odoo.com/documentation/18.0/developer/tutorials/server_framework_101.html]
+
+# Contact
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/justine-josh-larona-79428a36a/).
