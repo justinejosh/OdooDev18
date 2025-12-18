@@ -81,7 +81,7 @@ class estateProperty(models.Model):
     def _check_price(self):
         for record in self:
             if record.best_price < record.expected_price *  0.9 and record.selling_price > 0:
-                raise ValidationError('The selling price must be at least 90`%` of the expected price')
+                raise ValidationError('The selling price must be at least 90% of the expected price')
             
     @api.ondelete(at_uninstall=False)
     def _unlink_except_sold_cancelled(self):

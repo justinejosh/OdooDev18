@@ -5,7 +5,7 @@ class EstatePropertyOffer(models.Model):
     _name = "estate.property.offer"
     _description = "Real Estate Property Offers"
     _sql_constraints = [
-        ('price', 'CHECK(price > 0)', 'Price must be ')
+        ('price', 'CHECK(price > 0)', 'Price must be greater than 0!')
 
     ]
     _order = "price desc"
